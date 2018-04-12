@@ -1,0 +1,22 @@
+{
+  "name": "BigInt",
+  "version": "0.1.0",
+  "summary": "A short description of BigInt.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Ybrin/BigInt",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Ybrin": "koray@koska.at"
+  },
+  "source": {
+    "git": "https://github.com/Ybrin/BigInt.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "BigInt/Classes/**/*"
+}

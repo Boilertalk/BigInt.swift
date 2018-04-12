@@ -3,7 +3,7 @@
 //  BigInt
 //
 //  Created by Ybrin on 04/12/2018.
-//  Copyright (c) 2018 Ybrin. All rights reserved.
+//  Copyright (c) 2018 Boilertalk. All rights reserved.
 //
 
 import UIKit

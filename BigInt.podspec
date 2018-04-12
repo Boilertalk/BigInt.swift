@@ -1,42 +1,30 @@
-#
-# Be sure to run `pod lib lint BigInt.podspec' to ensure this is a
-# valid spec before submitting.
-#
-# Any lines starting with a # are optional, but their use is encouraged
-# To learn more about a Podspec see http://guides.cocoapods.org/syntax/podspec.html
-#
-
 Pod::Spec.new do |s|
-  s.name             = 'BigInt'
+  s.name             = 'BigInt.swift'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of BigInt.'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
+  s.summary          = 'BigInt library for Swift. Arbitarily sized integer operations.'
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+BigInt library for Swift. Use it to interact with big integers exceeding the maximum
+word size of Swift. Uses UInt arrays in the background to allow all major operations
+which are also available for normal Ints.
                        DESC
 
-  s.homepage         = 'https://github.com/Ybrin/BigInt'
+  s.homepage         = 'https://github.com/Boilertalk/BigInt.swift'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Ybrin' => 'koray@koska.at' }
-  s.source           = { :git => 'https://github.com/Ybrin/BigInt.git', :tag => s.version.to_s }
+  s.author           = { 'Koray Koska' => 'koray@koska.at' }
+  s.source           = { :git => 'https://github.com/Boilertalk/BigInt.swift.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
+  s.osx.deployment_target = '10.10'
+  s.tvos.deployment_target = '9.0'
+  s.watchos.deployment_target = '2.0'
 
-  s.source_files = 'BigInt/Classes/**/*'
-  
   # s.resource_bundles = {
   #   'BigInt' => ['BigInt/Assets/*.png']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end
