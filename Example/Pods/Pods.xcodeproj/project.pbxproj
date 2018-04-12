@@ -7,114 +7,122 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		18811BBBCCE99820B3C1BD7C6CB77465 /* Division.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A235C26F4265C470680CC73634F970 /* Division.swift */; };
-		1C43C3D0B00A0F1420C5E9D07FCFC49A /* GCD.swift in Sources */ = {isa = PBXBuildFile; fileRef = A80B4991A704761DD0FDCF6F5CE731E6 /* GCD.swift */; };
+		0320920D4B904E8F5991BB337CC8A389 /* Pods-BigInt_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0173B66C8E7EF141A6649573E16727E6 /* Pods-BigInt_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		06111D6964B1EAA56FBCC12E6A10076C /* BigInt.swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 386B0C3C77303BFA2E48FA55BD45F81B /* BigInt.swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		08F2C4AB53FAAAF5D2D06E49001C601F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		1A39225FA4178DAF8D8A7457D48EDB71 /* Multiplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C6966149D233EE82BF06B891EB506EC /* Multiplication.swift */; };
+		268E357B74074C60D1878D61712E7FA1 /* StringConversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2068C2035A5A593F8586D361B94939C0 /* StringConversion.swift */; };
 		2FCB6425F2B5FDA6E456643DDC56FA5D /* Pods-BigInt_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F7713C93B72009230910B174F1B48357 /* Pods-BigInt_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		320A2FAE84C49807EB312AF7156FDC1F /* Comparable.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3D2E595A0D539E21C2C4423776953D /* Comparable.swift */; };
-		3628C67B1B79FD83164FAADC81B0049C /* FloatingPointConversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3FEF4B10A11B0F0A6DB9182E404ED7D /* FloatingPointConversion.swift */; };
-		386B8F47A71A55FF391A5F2C7F21868E /* Strideable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 026A0775348FAF63536C6CCE4C33516F /* Strideable.swift */; };
-		38CFFF39E3CAED838A715D0EFDBA7CE0 /* Hashable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A66A4DD31CC6B92392ABE4824C4EECC0 /* Hashable.swift */; };
-		3FA2479FBE65B1646672FEB8B2E77422 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		41D2E42AAC8D9552AD4BBA1AA21DBEFF /* BigInt-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 99CE82F15E0C5D0F790E9A1D19E2F857 /* BigInt-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		56AC00CC3CDDF7E01EE5C9D32BAF742B /* DataConversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3781EAF8C54AF7EB11C6DCF6B4C7FC12 /* DataConversion.swift */; };
-		639A225151DE0596323F2DA8102CC80C /* Pods-BigInt_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0173B66C8E7EF141A6649573E16727E6 /* Pods-BigInt_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		65560AC1052F17DAF90E3CFDECDF1919 /* Pods-BigInt_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E10F4EBCA10472B216034FFC83A7256 /* Pods-BigInt_Example-dummy.m */; };
-		6CFA9B68627060122E80E1837DC0D45F /* BigInt-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FBEDF9A0C847B0D492CDD21252FD05DB /* BigInt-dummy.m */; };
-		71C839D340FDFEC3B8893B1C0D10C34C /* Shifts.swift in Sources */ = {isa = PBXBuildFile; fileRef = E50F7E9D24D2011355B065C1F2F7FB79 /* Shifts.swift */; };
-		86A4D77B6186B93A972CA232D1229403 /* WordsAndBits.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3CDB4705073770B81DDE14C862548CC /* WordsAndBits.swift */; };
-		89CF193BB52E74D2DC58A353A3F4D687 /* Addition.swift in Sources */ = {isa = PBXBuildFile; fileRef = C79A010112DE61221BB2105C47904275 /* Addition.swift */; };
-		90530509764BF9F1416FBFB7873F1DD1 /* PrimeTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394ADC5469F7D251117A6BE427E9AD2C /* PrimeTest.swift */; };
-		92C35A7FF3E92D79AE38235EF051A735 /* Subtraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841E3BAA3C35D9D7E43554C0552A0A4E /* Subtraction.swift */; };
-		9727E9EB0DC6AE76444C6379DD513736 /* BigInt.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B5875F8838FA618B04A0FEC219CC71 /* BigInt.swift */; };
-		9F106B63720273D78C917DC392A3B742 /* IntegerConversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3AF42EA8DEB7899566197DF0E2F64C3 /* IntegerConversion.swift */; };
-		9FDD5A761C08A1BA6E0940E0400AC5FB /* BigUInt.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1DD14093E2DC6FC288664BBCD748B7C /* BigUInt.swift */; };
-		A114C1421CF9E6BB2ABD5DDF159A9F19 /* Multiplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40264A4EDADA8CC671FE4E9B79D73F5 /* Multiplication.swift */; };
-		A4FD4082B876C33F96FE3E4B871ED66D /* Exponentiation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87712A172AACAFBF70312825296F3D49 /* Exponentiation.swift */; };
-		BC8A5AA8B6B1C1EA6F0EC0360A4BCFA1 /* BitwiseOps.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F98CA73585AD435CFC74BA428951A1E /* BitwiseOps.swift */; };
-		C48048C20684406E0406ED72F35CB22D /* Codable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A6749E92C0B161E991B247149A4F39 /* Codable.swift */; };
-		C9F4A1487113437F2235557836CAE128 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		D7FA2952ECFF94BC88E0309E84D452B9 /* StringConversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = D160E0D395E55D5E026BADCF7C86317F /* StringConversion.swift */; };
-		DF505B5C69A76D8C73F213AC7006FC8C /* SquareRoot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975978E5EA05CBD608AFF301C0AD823C /* SquareRoot.swift */; };
+		332D82F536CC916977923012CC612C19 /* Random.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1A93842A3D58A47566683B4CD294D27 /* Random.swift */; };
+		3C605D370A1F52186DACD142FF94A7AC /* Subtraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = E161CE0F856C4CE255A9A17DBAFA4F94 /* Subtraction.swift */; };
+		46A48BE0D5189A7F41E8A7641F63BC2F /* WordsAndBits.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7429B916FAC40E2B299C4038DDD81DC /* WordsAndBits.swift */; };
+		46C27A5CEBAD4BAD37DA123A7E918AE5 /* BigInt.swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A369C0E4CC3A34A7BEDA26ED58CC4B4B /* BigInt.swift-dummy.m */; };
+		4BEC1ECF760B183C2285B4EC5323BD2E /* BigUInt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BCDFA7F2BFB228B3977C424D4E51714 /* BigUInt.swift */; };
+		52DEF59D99D39FA807FFEA2F6F9CB923 /* Strideable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5FC5A4527672B020491BFC4BB34DC2 /* Strideable.swift */; };
+		5786AED52B95AD0EF7666BE233E77263 /* SquareRoot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28A57CB2468A41F708454CFEBE92DFFE /* SquareRoot.swift */; };
+		61378B7723EDB77331874F930F068931 /* BigInt.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2FDAD01E52ACADFAFA11796131DDDA6 /* BigInt.swift */; };
+		77C015DD30C31556A3466E3B2F38CC4C /* Exponentiation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE783854AFD3289EDCB9C60B2A38AE5 /* Exponentiation.swift */; };
+		7E97CD9199445A169B28F73F1589F9E1 /* Codable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 344FEE1B48710CABA39D8347603F0751 /* Codable.swift */; };
+		81AD1C69978AB57253F3E98275141D37 /* PrimeTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A2E5D83D07FE98108818C82D3AF2FEF /* PrimeTest.swift */; };
+		88D38A1A0357AF839D894A9587A206D6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		898DA303075278E0A3302089794B20A0 /* FloatingPointConversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = F79DF7B1D051B44181ECEF840C5E94BB /* FloatingPointConversion.swift */; };
+		97CDEFA0BBB7D684A9F10C28357F031A /* Addition.swift in Sources */ = {isa = PBXBuildFile; fileRef = C10B7912F4F62CD19BF0B8EC11D8DC66 /* Addition.swift */; };
+		9BAE23CB7DE78E2A65969E24CF1FC394 /* IntegerConversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECA44C8A0663FBD46427C85398C445C /* IntegerConversion.swift */; };
+		B45D538A9963BB0B75FB53834C133780 /* Pods-BigInt_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E10F4EBCA10472B216034FFC83A7256 /* Pods-BigInt_Example-dummy.m */; };
+		B973480C1301A4C4A56629BF62D21948 /* Comparable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B474DB2C8256E1680AC8154518CA7347 /* Comparable.swift */; };
+		BD6822F276712FC4D15FD6F35C795AFE /* BitwiseOps.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56ABBFAE5E144917FC3911A5107C1A4E /* BitwiseOps.swift */; };
+		CD8E1C1BC028C4C979CBACA25F1C08AD /* DataConversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3F2F755B69A0EA463E32604755FB2C /* DataConversion.swift */; };
+		E599CEABF822C49A58900BB7B45E09D6 /* Hashable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F32395790C9C17F66B698830B240A0 /* Hashable.swift */; };
+		ED17250F6A0C5F9AE0457515418320AD /* GCD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 971D31024C767CFF19CF8314CDC732CD /* GCD.swift */; };
+		EF7592C30354AD3B1F4ABB38C7F4E540 /* Division.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF315036AA3A91C02DEAE09A66F8E35D /* Division.swift */; };
 		F517B68ADDAB2D46CC24EBC1462CCA0C /* Pods-BigInt_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 46465FAA927E9C40B3633D7457906B69 /* Pods-BigInt_Tests-dummy.m */; };
 		F5C37BEBE54ED1C40F7AB17F18EB53D2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		FB73F8744ACAEE0CA259DB7C26C123E7 /* Random.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA39A319A0F8ED3673D04DDF6EAA4BF7 /* Random.swift */; };
+		FB092EC011E700DC69AF7F502EC48542 /* Shifts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558AD6378ACC1C9C75DE296EFAB145CF /* Shifts.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		D4BF369C08E7F5E8CDB62FE55376D129 /* PBXContainerItemProxy */ = {
+		2D41FE5292D881BF7C57B89CE9486279 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 8048D0AF7B67B417FEBB032906F957A9;
-			remoteInfo = BigInt;
+			remoteGlobalIDString = A4A1EDB6FFF93CF75BAE2D00B399ABAA;
+			remoteInfo = BigInt.swift;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		01095D1FF80A7358762171D73DBB0ECD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0173B66C8E7EF141A6649573E16727E6 /* Pods-BigInt_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BigInt_Example-umbrella.h"; sourceTree = "<group>"; };
-		026A0775348FAF63536C6CCE4C33516F /* Strideable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Strideable.swift; path = BigInt/Classes/Strideable.swift; sourceTree = "<group>"; };
 		0A9D0BAA75EE3850C3D715B933DD9061 /* Pods-BigInt_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BigInt_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		0F16098BEDE012CC4480101E8BF1E694 /* BigInt-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BigInt-prefix.pch"; sourceTree = "<group>"; };
-		18352B16B41F82A969B09B91BE202484 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		1F98CA73585AD435CFC74BA428951A1E /* BitwiseOps.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BitwiseOps.swift; path = BigInt/Classes/BitwiseOps.swift; sourceTree = "<group>"; };
+		1A2E5D83D07FE98108818C82D3AF2FEF /* PrimeTest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PrimeTest.swift; path = BigInt/Classes/PrimeTest.swift; sourceTree = "<group>"; };
 		1FBAD64D24D76AA9C926CC2AB4A6E5A5 /* Pods-BigInt_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BigInt_Example.modulemap"; sourceTree = "<group>"; };
+		2068C2035A5A593F8586D361B94939C0 /* StringConversion.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StringConversion.swift; path = BigInt/Classes/StringConversion.swift; sourceTree = "<group>"; };
+		23F32395790C9C17F66B698830B240A0 /* Hashable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Hashable.swift; path = BigInt/Classes/Hashable.swift; sourceTree = "<group>"; };
+		28A57CB2468A41F708454CFEBE92DFFE /* SquareRoot.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SquareRoot.swift; path = BigInt/Classes/SquareRoot.swift; sourceTree = "<group>"; };
 		2E10F4EBCA10472B216034FFC83A7256 /* Pods-BigInt_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BigInt_Example-dummy.m"; sourceTree = "<group>"; };
+		2EF35D1497311EA1885FFA5F8B0B669C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		30F1D2E20A67629996AD24D40DDB8570 /* Pods-BigInt_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BigInt_Example-resources.sh"; sourceTree = "<group>"; };
-		3781EAF8C54AF7EB11C6DCF6B4C7FC12 /* DataConversion.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DataConversion.swift; path = BigInt/Classes/DataConversion.swift; sourceTree = "<group>"; };
-		38CB03452A07302B9AD3A974AF69008F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		394ADC5469F7D251117A6BE427E9AD2C /* PrimeTest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PrimeTest.swift; path = BigInt/Classes/PrimeTest.swift; sourceTree = "<group>"; };
+		32B25F29E418459F23853E57FA860EC1 /* BigInt.swift.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = BigInt.swift.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		344FEE1B48710CABA39D8347603F0751 /* Codable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Codable.swift; path = BigInt/Classes/Codable.swift; sourceTree = "<group>"; };
+		386B0C3C77303BFA2E48FA55BD45F81B /* BigInt.swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BigInt.swift-umbrella.h"; sourceTree = "<group>"; };
+		3BCDFA7F2BFB228B3977C424D4E51714 /* BigUInt.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BigUInt.swift; path = BigInt/Classes/BigUInt.swift; sourceTree = "<group>"; };
+		430AE14CFBC8F5B38C5D2833ACD2289A /* BigInt.swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BigInt.swift.modulemap; sourceTree = "<group>"; };
 		46465FAA927E9C40B3633D7457906B69 /* Pods-BigInt_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BigInt_Tests-dummy.m"; sourceTree = "<group>"; };
 		48B7930D88196F148ADE07A85B05F9DE /* Pods-BigInt_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BigInt_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		558AD6378ACC1C9C75DE296EFAB145CF /* Shifts.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Shifts.swift; path = BigInt/Classes/Shifts.swift; sourceTree = "<group>"; };
+		56ABBFAE5E144917FC3911A5107C1A4E /* BitwiseOps.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BitwiseOps.swift; path = BigInt/Classes/BitwiseOps.swift; sourceTree = "<group>"; };
+		5BE783854AFD3289EDCB9C60B2A38AE5 /* Exponentiation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Exponentiation.swift; path = BigInt/Classes/Exponentiation.swift; sourceTree = "<group>"; };
+		651B1252DAF8BC59EBE1B3E7B9610F38 /* Pods_BigInt_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BigInt_Example.framework; path = "Pods-BigInt_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		690D25762E57E76195541A31CAB0B232 /* Pods-BigInt_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BigInt_Example.release.xcconfig"; sourceTree = "<group>"; };
-		6985C3FD9D340B4A74A9C5E0D17259C6 /* BigInt.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = BigInt.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		6E5C41F1FAB17549FA1BDE4A2BBD41C3 /* Pods-BigInt_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BigInt_Tests-resources.sh"; sourceTree = "<group>"; };
-		7769649E21E42BA70E186295A204AD44 /* Pods_BigInt_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BigInt_Tests.framework; path = "Pods-BigInt_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7FC1C89644C08516ECBC3BCCDC074B48 /* Pods_BigInt_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BigInt_Example.framework; path = "Pods-BigInt_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		841E3BAA3C35D9D7E43554C0552A0A4E /* Subtraction.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Subtraction.swift; path = BigInt/Classes/Subtraction.swift; sourceTree = "<group>"; };
-		87712A172AACAFBF70312825296F3D49 /* Exponentiation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Exponentiation.swift; path = BigInt/Classes/Exponentiation.swift; sourceTree = "<group>"; };
+		7AE3F2C63122BD1D9BAA0BD494031367 /* BigInt.swift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BigInt.swift-prefix.pch"; sourceTree = "<group>"; };
+		7BFD39C8733C9EDA5DE6A4EC1A628CB4 /* BigInt.swift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BigInt.swift.xcconfig; sourceTree = "<group>"; };
+		844C288EF56765F0C8B53D3C79B5F04B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		900772AE551173F28CF9992E2B8D91C9 /* Pods-BigInt_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BigInt_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		975978E5EA05CBD608AFF301C0AD823C /* SquareRoot.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SquareRoot.swift; path = BigInt/Classes/SquareRoot.swift; sourceTree = "<group>"; };
-		99CE82F15E0C5D0F790E9A1D19E2F857 /* BigInt-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BigInt-umbrella.h"; sourceTree = "<group>"; };
+		971D31024C767CFF19CF8314CDC732CD /* GCD.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GCD.swift; path = BigInt/Classes/GCD.swift; sourceTree = "<group>"; };
 		99FDD9304859F37CE0959CC2C2F390D3 /* Pods-BigInt_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BigInt_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		A3AF42EA8DEB7899566197DF0E2F64C3 /* IntegerConversion.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IntegerConversion.swift; path = BigInt/Classes/IntegerConversion.swift; sourceTree = "<group>"; };
-		A66A4DD31CC6B92392ABE4824C4EECC0 /* Hashable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Hashable.swift; path = BigInt/Classes/Hashable.swift; sourceTree = "<group>"; };
+		9C6966149D233EE82BF06B891EB506EC /* Multiplication.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Multiplication.swift; path = BigInt/Classes/Multiplication.swift; sourceTree = "<group>"; };
+		9C902BC0C0817403D2B21577B0C64DAC /* BigInt.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BigInt.framework; path = BigInt.swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A369C0E4CC3A34A7BEDA26ED58CC4B4B /* BigInt.swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BigInt.swift-dummy.m"; sourceTree = "<group>"; };
+		A5C07FB2CB6F0FF726A4FB0AF18FF808 /* Pods_BigInt_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BigInt_Tests.framework; path = "Pods-BigInt_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A75C65560604D6061188E074A9D38A06 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A80B4991A704761DD0FDCF6F5CE731E6 /* GCD.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GCD.swift; path = BigInt/Classes/GCD.swift; sourceTree = "<group>"; };
-		A9A6749E92C0B161E991B247149A4F39 /* Codable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Codable.swift; path = BigInt/Classes/Codable.swift; sourceTree = "<group>"; };
+		A7671E3D06AF92A58F7AFC4DD41D84A5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		ACA7C9B085C7D3233D3ABD2733D5F3B0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AE3D2E595A0D539E21C2C4423776953D /* Comparable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Comparable.swift; path = BigInt/Classes/Comparable.swift; sourceTree = "<group>"; };
-		B02124DBA06954FEF473CD46EE94EBBC /* BigInt.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BigInt.framework; path = BigInt.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B11C867C4D4130E4F211BABAEA0475AB /* Pods-BigInt_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BigInt_Tests.modulemap"; sourceTree = "<group>"; };
-		B3A235C26F4265C470680CC73634F970 /* Division.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Division.swift; path = BigInt/Classes/Division.swift; sourceTree = "<group>"; };
-		B3CDB4705073770B81DDE14C862548CC /* WordsAndBits.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WordsAndBits.swift; path = BigInt/Classes/WordsAndBits.swift; sourceTree = "<group>"; };
+		B1A93842A3D58A47566683B4CD294D27 /* Random.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Random.swift; path = BigInt/Classes/Random.swift; sourceTree = "<group>"; };
+		B474DB2C8256E1680AC8154518CA7347 /* Comparable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Comparable.swift; path = BigInt/Classes/Comparable.swift; sourceTree = "<group>"; };
 		B67D5DEA3A98E940820C6F5AD9D5F334 /* Pods-BigInt_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BigInt_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		B7DC6222FE7D3DF6E03E2A050E890C32 /* Pods-BigInt_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BigInt_Example-frameworks.sh"; sourceTree = "<group>"; };
-		C79A010112DE61221BB2105C47904275 /* Addition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Addition.swift; path = BigInt/Classes/Addition.swift; sourceTree = "<group>"; };
-		D160E0D395E55D5E026BADCF7C86317F /* StringConversion.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StringConversion.swift; path = BigInt/Classes/StringConversion.swift; sourceTree = "<group>"; };
-		D55C99E7C3DAE9D728053740013D4028 /* BigInt.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BigInt.xcconfig; sourceTree = "<group>"; };
+		BF315036AA3A91C02DEAE09A66F8E35D /* Division.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Division.swift; path = BigInt/Classes/Division.swift; sourceTree = "<group>"; };
+		C10B7912F4F62CD19BF0B8EC11D8DC66 /* Addition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Addition.swift; path = BigInt/Classes/Addition.swift; sourceTree = "<group>"; };
+		C2FDAD01E52ACADFAFA11796131DDDA6 /* BigInt.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BigInt.swift; path = BigInt/Classes/BigInt.swift; sourceTree = "<group>"; };
+		C7429B916FAC40E2B299C4038DDD81DC /* WordsAndBits.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WordsAndBits.swift; path = BigInt/Classes/WordsAndBits.swift; sourceTree = "<group>"; };
+		CE5FC5A4527672B020491BFC4BB34DC2 /* Strideable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Strideable.swift; path = BigInt/Classes/Strideable.swift; sourceTree = "<group>"; };
 		D6668266D69E2777DB16530D07D19663 /* Pods-BigInt_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BigInt_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		D8B5875F8838FA618B04A0FEC219CC71 /* BigInt.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BigInt.swift; path = BigInt/Classes/BigInt.swift; sourceTree = "<group>"; };
 		DB1D406C65CFE809C9D44CBA8EEF7B3E /* Pods-BigInt_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BigInt_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		E1DD14093E2DC6FC288664BBCD748B7C /* BigUInt.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BigUInt.swift; path = BigInt/Classes/BigUInt.swift; sourceTree = "<group>"; };
-		E3FEF4B10A11B0F0A6DB9182E404ED7D /* FloatingPointConversion.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FloatingPointConversion.swift; path = BigInt/Classes/FloatingPointConversion.swift; sourceTree = "<group>"; };
-		E40264A4EDADA8CC671FE4E9B79D73F5 /* Multiplication.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Multiplication.swift; path = BigInt/Classes/Multiplication.swift; sourceTree = "<group>"; };
-		E50F7E9D24D2011355B065C1F2F7FB79 /* Shifts.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Shifts.swift; path = BigInt/Classes/Shifts.swift; sourceTree = "<group>"; };
-		EA39A319A0F8ED3673D04DDF6EAA4BF7 /* Random.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Random.swift; path = BigInt/Classes/Random.swift; sourceTree = "<group>"; };
-		ED2A3E70B816FCD1F2DCC7BFA811C61D /* BigInt.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BigInt.modulemap; sourceTree = "<group>"; };
+		DECA44C8A0663FBD46427C85398C445C /* IntegerConversion.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IntegerConversion.swift; path = BigInt/Classes/IntegerConversion.swift; sourceTree = "<group>"; };
+		E161CE0F856C4CE255A9A17DBAFA4F94 /* Subtraction.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Subtraction.swift; path = BigInt/Classes/Subtraction.swift; sourceTree = "<group>"; };
 		F7713C93B72009230910B174F1B48357 /* Pods-BigInt_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BigInt_Tests-umbrella.h"; sourceTree = "<group>"; };
+		F79DF7B1D051B44181ECEF840C5E94BB /* FloatingPointConversion.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FloatingPointConversion.swift; path = BigInt/Classes/FloatingPointConversion.swift; sourceTree = "<group>"; };
 		FBD71A2C8523EADC432F01F72EB7A4EC /* Pods-BigInt_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BigInt_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		FBEDF9A0C847B0D492CDD21252FD05DB /* BigInt-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BigInt-dummy.m"; sourceTree = "<group>"; };
+		FE3F2F755B69A0EA463E32604755FB2C /* DataConversion.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DataConversion.swift; path = BigInt/Classes/DataConversion.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		6266A5391C6E54D715254B7ADB537989 /* Frameworks */ = {
+		0A48C541F4364C006817B2E2C9D91B5A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3FA2479FBE65B1646672FEB8B2E77422 /* Foundation.framework in Frameworks */,
+				08F2C4AB53FAAAF5D2D06E49001C601F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D8F47DE5E621721CB3A4DB63A7EE695 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88D38A1A0357AF839D894A9587A206D6 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -126,17 +134,29 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BF478A0E3971A55FD887367934A6EC5E /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C9F4A1487113437F2235557836CAE128 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		048D1F290B195314EFB030930A2B41F2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9C902BC0C0817403D2B21577B0C64DAC /* BigInt.framework */,
+				651B1252DAF8BC59EBE1B3E7B9610F38 /* Pods_BigInt_Example.framework */,
+				A5C07FB2CB6F0FF726A4FB0AF18FF808 /* Pods_BigInt_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		149168E2CFC80982106FDDD4C4BB6A29 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				32B25F29E418459F23853E57FA860EC1 /* BigInt.swift.podspec */,
+				A7671E3D06AF92A58F7AFC4DD41D84A5 /* LICENSE */,
+				2EF35D1497311EA1885FFA5F8B0B669C /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 		273278C31D065ABE8E79A8F250260480 /* Pods-BigInt_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -153,24 +173,6 @@
 			);
 			name = "Pods-BigInt_Tests";
 			path = "Target Support Files/Pods-BigInt_Tests";
-			sourceTree = "<group>";
-		};
-		34F74AFC76FFA381E84B944E46533D4E /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				B02124DBA06954FEF473CD46EE94EBBC /* BigInt.framework */,
-				7FC1C89644C08516ECBC3BCCDC074B48 /* Pods_BigInt_Example.framework */,
-				7769649E21E42BA70E186295A204AD44 /* Pods_BigInt_Tests.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		52AAA8FD2AFC58BEF40F05FBE5D22EF2 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				B0E443AEBF7E60C42CA51EBA9AFB267E /* BigInt */,
-			);
-			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		533758E7C4B52FA4274C410ED0C3C32F /* Pods-BigInt_Example */ = {
@@ -191,37 +193,53 @@
 			path = "Target Support Files/Pods-BigInt_Example";
 			sourceTree = "<group>";
 		};
-		5801901FF2E8C37B6867E5EBF1D228BE /* Support Files */ = {
+		5994C3C80CDA48142B3AF8D61138B830 /* BigInt.swift */ = {
 			isa = PBXGroup;
 			children = (
-				ED2A3E70B816FCD1F2DCC7BFA811C61D /* BigInt.modulemap */,
-				D55C99E7C3DAE9D728053740013D4028 /* BigInt.xcconfig */,
-				FBEDF9A0C847B0D492CDD21252FD05DB /* BigInt-dummy.m */,
-				0F16098BEDE012CC4480101E8BF1E694 /* BigInt-prefix.pch */,
-				99CE82F15E0C5D0F790E9A1D19E2F857 /* BigInt-umbrella.h */,
-				01095D1FF80A7358762171D73DBB0ECD /* Info.plist */,
+				C10B7912F4F62CD19BF0B8EC11D8DC66 /* Addition.swift */,
+				C2FDAD01E52ACADFAFA11796131DDDA6 /* BigInt.swift */,
+				3BCDFA7F2BFB228B3977C424D4E51714 /* BigUInt.swift */,
+				56ABBFAE5E144917FC3911A5107C1A4E /* BitwiseOps.swift */,
+				344FEE1B48710CABA39D8347603F0751 /* Codable.swift */,
+				B474DB2C8256E1680AC8154518CA7347 /* Comparable.swift */,
+				FE3F2F755B69A0EA463E32604755FB2C /* DataConversion.swift */,
+				BF315036AA3A91C02DEAE09A66F8E35D /* Division.swift */,
+				5BE783854AFD3289EDCB9C60B2A38AE5 /* Exponentiation.swift */,
+				F79DF7B1D051B44181ECEF840C5E94BB /* FloatingPointConversion.swift */,
+				971D31024C767CFF19CF8314CDC732CD /* GCD.swift */,
+				23F32395790C9C17F66B698830B240A0 /* Hashable.swift */,
+				DECA44C8A0663FBD46427C85398C445C /* IntegerConversion.swift */,
+				9C6966149D233EE82BF06B891EB506EC /* Multiplication.swift */,
+				1A2E5D83D07FE98108818C82D3AF2FEF /* PrimeTest.swift */,
+				B1A93842A3D58A47566683B4CD294D27 /* Random.swift */,
+				558AD6378ACC1C9C75DE296EFAB145CF /* Shifts.swift */,
+				28A57CB2468A41F708454CFEBE92DFFE /* SquareRoot.swift */,
+				CE5FC5A4527672B020491BFC4BB34DC2 /* Strideable.swift */,
+				2068C2035A5A593F8586D361B94939C0 /* StringConversion.swift */,
+				E161CE0F856C4CE255A9A17DBAFA4F94 /* Subtraction.swift */,
+				C7429B916FAC40E2B299C4038DDD81DC /* WordsAndBits.swift */,
+				149168E2CFC80982106FDDD4C4BB6A29 /* Pod */,
+				8BDF1EA5F8B6E21E41AFC24DEC99A9EA /* Support Files */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/BigInt";
+			name = BigInt.swift;
+			path = ../..;
 			sourceTree = "<group>";
 		};
-		604B34F3D8B4CE271EE2DEDD1265332B /* Pod */ = {
+		6A319FBBD757F727EBDD4974952ED264 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				6985C3FD9D340B4A74A9C5E0D17259C6 /* BigInt.podspec */,
-				18352B16B41F82A969B09B91BE202484 /* LICENSE */,
-				38CB03452A07302B9AD3A974AF69008F /* README.md */,
+				5994C3C80CDA48142B3AF8D61138B830 /* BigInt.swift */,
 			);
-			name = Pod;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				52AAA8FD2AFC58BEF40F05FBE5D22EF2 /* Development Pods */,
+				6A319FBBD757F727EBDD4974952ED264 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				34F74AFC76FFA381E84B944E46533D4E /* Products */,
+				048D1F290B195314EFB030930A2B41F2 /* Products */,
 				892C83826F943990D205F92FF3CD0D39 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -235,36 +253,18 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		B0E443AEBF7E60C42CA51EBA9AFB267E /* BigInt */ = {
+		8BDF1EA5F8B6E21E41AFC24DEC99A9EA /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				C79A010112DE61221BB2105C47904275 /* Addition.swift */,
-				D8B5875F8838FA618B04A0FEC219CC71 /* BigInt.swift */,
-				E1DD14093E2DC6FC288664BBCD748B7C /* BigUInt.swift */,
-				1F98CA73585AD435CFC74BA428951A1E /* BitwiseOps.swift */,
-				A9A6749E92C0B161E991B247149A4F39 /* Codable.swift */,
-				AE3D2E595A0D539E21C2C4423776953D /* Comparable.swift */,
-				3781EAF8C54AF7EB11C6DCF6B4C7FC12 /* DataConversion.swift */,
-				B3A235C26F4265C470680CC73634F970 /* Division.swift */,
-				87712A172AACAFBF70312825296F3D49 /* Exponentiation.swift */,
-				E3FEF4B10A11B0F0A6DB9182E404ED7D /* FloatingPointConversion.swift */,
-				A80B4991A704761DD0FDCF6F5CE731E6 /* GCD.swift */,
-				A66A4DD31CC6B92392ABE4824C4EECC0 /* Hashable.swift */,
-				A3AF42EA8DEB7899566197DF0E2F64C3 /* IntegerConversion.swift */,
-				E40264A4EDADA8CC671FE4E9B79D73F5 /* Multiplication.swift */,
-				394ADC5469F7D251117A6BE427E9AD2C /* PrimeTest.swift */,
-				EA39A319A0F8ED3673D04DDF6EAA4BF7 /* Random.swift */,
-				E50F7E9D24D2011355B065C1F2F7FB79 /* Shifts.swift */,
-				975978E5EA05CBD608AFF301C0AD823C /* SquareRoot.swift */,
-				026A0775348FAF63536C6CCE4C33516F /* Strideable.swift */,
-				D160E0D395E55D5E026BADCF7C86317F /* StringConversion.swift */,
-				841E3BAA3C35D9D7E43554C0552A0A4E /* Subtraction.swift */,
-				B3CDB4705073770B81DDE14C862548CC /* WordsAndBits.swift */,
-				604B34F3D8B4CE271EE2DEDD1265332B /* Pod */,
-				5801901FF2E8C37B6867E5EBF1D228BE /* Support Files */,
+				430AE14CFBC8F5B38C5D2833ACD2289A /* BigInt.swift.modulemap */,
+				7BFD39C8733C9EDA5DE6A4EC1A628CB4 /* BigInt.swift.xcconfig */,
+				A369C0E4CC3A34A7BEDA26ED58CC4B4B /* BigInt.swift-dummy.m */,
+				7AE3F2C63122BD1D9BAA0BD494031367 /* BigInt.swift-prefix.pch */,
+				386B0C3C77303BFA2E48FA55BD45F81B /* BigInt.swift-umbrella.h */,
+				844C288EF56765F0C8B53D3C79B5F04B /* Info.plist */,
 			);
-			name = BigInt;
-			path = ../..;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/BigInt.swift";
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -286,6 +286,22 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		0D076D6CD10AF098AAAC1F461A969256 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06111D6964B1EAA56FBCC12E6A10076C /* BigInt.swift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A385604631BF06DBC2E04FF3B06F24A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0320920D4B904E8F5991BB337CC8A389 /* Pods-BigInt_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9980F3045FCB9FBC3A454F7F5BC7820E /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -294,42 +310,9 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AE08A0D31870391F031F5A0C8D5BD9BD /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				639A225151DE0596323F2DA8102CC80C /* Pods-BigInt_Example-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F3552EB4AA4DD846D8988FF8AEF15636 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				41D2E42AAC8D9552AD4BBA1AA21DBEFF /* BigInt-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		8048D0AF7B67B417FEBB032906F957A9 /* BigInt */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 5F14FEF2DBF7335F3F5B73EF29C8F99E /* Build configuration list for PBXNativeTarget "BigInt" */;
-			buildPhases = (
-				5EFC4C9075D17798C81473D560077203 /* Sources */,
-				BF478A0E3971A55FD887367934A6EC5E /* Frameworks */,
-				F3552EB4AA4DD846D8988FF8AEF15636 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = BigInt;
-			productName = BigInt;
-			productReference = B02124DBA06954FEF473CD46EE94EBBC /* BigInt.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		8439B7B081236DD868191AF860C9BC54 /* Pods-BigInt_Tests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = C2342E5E0CC117994542D0BDD932F27A /* Build configuration list for PBXNativeTarget "Pods-BigInt_Tests" */;
@@ -344,25 +327,42 @@
 			);
 			name = "Pods-BigInt_Tests";
 			productName = "Pods-BigInt_Tests";
-			productReference = 7769649E21E42BA70E186295A204AD44 /* Pods_BigInt_Tests.framework */;
+			productReference = A5C07FB2CB6F0FF726A4FB0AF18FF808 /* Pods_BigInt_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		DB9BC6748FA092F009EBB0ACDE8E7AAF /* Pods-BigInt_Example */ = {
+		A4A1EDB6FFF93CF75BAE2D00B399ABAA /* BigInt.swift */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 71D930D437F43D513B168EF52201BB90 /* Build configuration list for PBXNativeTarget "Pods-BigInt_Example" */;
+			buildConfigurationList = 5F5AD58D3E02DB5E92E1210568A7BE36 /* Build configuration list for PBXNativeTarget "BigInt.swift" */;
 			buildPhases = (
-				5420540883D164F09F1315A374F58274 /* Sources */,
-				6266A5391C6E54D715254B7ADB537989 /* Frameworks */,
-				AE08A0D31870391F031F5A0C8D5BD9BD /* Headers */,
+				80AE07D5A40CB638175887E42634C8A5 /* Sources */,
+				0A48C541F4364C006817B2E2C9D91B5A /* Frameworks */,
+				0D076D6CD10AF098AAAC1F461A969256 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				B478BC9CBB006B2429145A3ED143790E /* PBXTargetDependency */,
+			);
+			name = BigInt.swift;
+			productName = BigInt.swift;
+			productReference = 9C902BC0C0817403D2B21577B0C64DAC /* BigInt.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C149DBE058CC65E116EA9A626CA82B29 /* Pods-BigInt_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45765B6580030ABBC5DEC6914D089865 /* Build configuration list for PBXNativeTarget "Pods-BigInt_Example" */;
+			buildPhases = (
+				85FFCE2178B9EC5070AEBA1AADF38E3E /* Sources */,
+				9D8F47DE5E621721CB3A4DB63A7EE695 /* Frameworks */,
+				3A385604631BF06DBC2E04FF3B06F24A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8CFE8F433C9321F1F427E14113CD3B5E /* PBXTargetDependency */,
 			);
 			name = "Pods-BigInt_Example";
 			productName = "Pods-BigInt_Example";
-			productReference = 7FC1C89644C08516ECBC3BCCDC074B48 /* Pods_BigInt_Example.framework */;
+			productReference = 651B1252DAF8BC59EBE1B3E7B9610F38 /* Pods_BigInt_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -382,12 +382,12 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 34F74AFC76FFA381E84B944E46533D4E /* Products */;
+			productRefGroup = 048D1F290B195314EFB030930A2B41F2 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8048D0AF7B67B417FEBB032906F957A9 /* BigInt */,
-				DB9BC6748FA092F009EBB0ACDE8E7AAF /* Pods-BigInt_Example */,
+				A4A1EDB6FFF93CF75BAE2D00B399ABAA /* BigInt.swift */,
+				C149DBE058CC65E116EA9A626CA82B29 /* Pods-BigInt_Example */,
 				8439B7B081236DD868191AF860C9BC54 /* Pods-BigInt_Tests */,
 			);
 		};
@@ -402,88 +402,56 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5420540883D164F09F1315A374F58274 /* Sources */ = {
+		80AE07D5A40CB638175887E42634C8A5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				65560AC1052F17DAF90E3CFDECDF1919 /* Pods-BigInt_Example-dummy.m in Sources */,
+				97CDEFA0BBB7D684A9F10C28357F031A /* Addition.swift in Sources */,
+				61378B7723EDB77331874F930F068931 /* BigInt.swift in Sources */,
+				46C27A5CEBAD4BAD37DA123A7E918AE5 /* BigInt.swift-dummy.m in Sources */,
+				4BEC1ECF760B183C2285B4EC5323BD2E /* BigUInt.swift in Sources */,
+				BD6822F276712FC4D15FD6F35C795AFE /* BitwiseOps.swift in Sources */,
+				7E97CD9199445A169B28F73F1589F9E1 /* Codable.swift in Sources */,
+				B973480C1301A4C4A56629BF62D21948 /* Comparable.swift in Sources */,
+				CD8E1C1BC028C4C979CBACA25F1C08AD /* DataConversion.swift in Sources */,
+				EF7592C30354AD3B1F4ABB38C7F4E540 /* Division.swift in Sources */,
+				77C015DD30C31556A3466E3B2F38CC4C /* Exponentiation.swift in Sources */,
+				898DA303075278E0A3302089794B20A0 /* FloatingPointConversion.swift in Sources */,
+				ED17250F6A0C5F9AE0457515418320AD /* GCD.swift in Sources */,
+				E599CEABF822C49A58900BB7B45E09D6 /* Hashable.swift in Sources */,
+				9BAE23CB7DE78E2A65969E24CF1FC394 /* IntegerConversion.swift in Sources */,
+				1A39225FA4178DAF8D8A7457D48EDB71 /* Multiplication.swift in Sources */,
+				81AD1C69978AB57253F3E98275141D37 /* PrimeTest.swift in Sources */,
+				332D82F536CC916977923012CC612C19 /* Random.swift in Sources */,
+				FB092EC011E700DC69AF7F502EC48542 /* Shifts.swift in Sources */,
+				5786AED52B95AD0EF7666BE233E77263 /* SquareRoot.swift in Sources */,
+				52DEF59D99D39FA807FFEA2F6F9CB923 /* Strideable.swift in Sources */,
+				268E357B74074C60D1878D61712E7FA1 /* StringConversion.swift in Sources */,
+				3C605D370A1F52186DACD142FF94A7AC /* Subtraction.swift in Sources */,
+				46A48BE0D5189A7F41E8A7641F63BC2F /* WordsAndBits.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5EFC4C9075D17798C81473D560077203 /* Sources */ = {
+		85FFCE2178B9EC5070AEBA1AADF38E3E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				89CF193BB52E74D2DC58A353A3F4D687 /* Addition.swift in Sources */,
-				6CFA9B68627060122E80E1837DC0D45F /* BigInt-dummy.m in Sources */,
-				9727E9EB0DC6AE76444C6379DD513736 /* BigInt.swift in Sources */,
-				9FDD5A761C08A1BA6E0940E0400AC5FB /* BigUInt.swift in Sources */,
-				BC8A5AA8B6B1C1EA6F0EC0360A4BCFA1 /* BitwiseOps.swift in Sources */,
-				C48048C20684406E0406ED72F35CB22D /* Codable.swift in Sources */,
-				320A2FAE84C49807EB312AF7156FDC1F /* Comparable.swift in Sources */,
-				56AC00CC3CDDF7E01EE5C9D32BAF742B /* DataConversion.swift in Sources */,
-				18811BBBCCE99820B3C1BD7C6CB77465 /* Division.swift in Sources */,
-				A4FD4082B876C33F96FE3E4B871ED66D /* Exponentiation.swift in Sources */,
-				3628C67B1B79FD83164FAADC81B0049C /* FloatingPointConversion.swift in Sources */,
-				1C43C3D0B00A0F1420C5E9D07FCFC49A /* GCD.swift in Sources */,
-				38CFFF39E3CAED838A715D0EFDBA7CE0 /* Hashable.swift in Sources */,
-				9F106B63720273D78C917DC392A3B742 /* IntegerConversion.swift in Sources */,
-				A114C1421CF9E6BB2ABD5DDF159A9F19 /* Multiplication.swift in Sources */,
-				90530509764BF9F1416FBFB7873F1DD1 /* PrimeTest.swift in Sources */,
-				FB73F8744ACAEE0CA259DB7C26C123E7 /* Random.swift in Sources */,
-				71C839D340FDFEC3B8893B1C0D10C34C /* Shifts.swift in Sources */,
-				DF505B5C69A76D8C73F213AC7006FC8C /* SquareRoot.swift in Sources */,
-				386B8F47A71A55FF391A5F2C7F21868E /* Strideable.swift in Sources */,
-				D7FA2952ECFF94BC88E0309E84D452B9 /* StringConversion.swift in Sources */,
-				92C35A7FF3E92D79AE38235EF051A735 /* Subtraction.swift in Sources */,
-				86A4D77B6186B93A972CA232D1229403 /* WordsAndBits.swift in Sources */,
+				B45D538A9963BB0B75FB53834C133780 /* Pods-BigInt_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		B478BC9CBB006B2429145A3ED143790E /* PBXTargetDependency */ = {
+		8CFE8F433C9321F1F427E14113CD3B5E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = BigInt;
-			target = 8048D0AF7B67B417FEBB032906F957A9 /* BigInt */;
-			targetProxy = D4BF369C08E7F5E8CDB62FE55376D129 /* PBXContainerItemProxy */;
+			name = BigInt.swift;
+			target = A4A1EDB6FFF93CF75BAE2D00B399ABAA /* BigInt.swift */;
+			targetProxy = 2D41FE5292D881BF7C57B89CE9486279 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		3563518C8D149639F2D99C0C9CF067D0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D55C99E7C3DAE9D728053740013D4028 /* BigInt.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/BigInt/BigInt-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/BigInt/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/BigInt/BigInt.modulemap";
-				PRODUCT_NAME = BigInt;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		5011B865762FC0C0A28ECEC4CB63DC68 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -547,40 +515,6 @@
 			};
 			name = Debug;
 		};
-		630A06ECC285ECFF4019832999A2BF6F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 900772AE551173F28CF9992E2B8D91C9 /* Pods-BigInt_Example.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-BigInt_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-BigInt_Example/Pods-BigInt_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_BigInt_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		6AC5CC0E45DCD3056527E6F2C4CCA19B /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D6668266D69E2777DB16530D07D19663 /* Pods-BigInt_Tests.release.xcconfig */;
@@ -613,6 +547,71 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		6F4F1391273593E53FF647C8DFFC8C26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 690D25762E57E76195541A31CAB0B232 /* Pods-BigInt_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BigInt_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BigInt_Example/Pods-BigInt_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_BigInt_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7EF98CDE818BE120CD7F1BCE6E5833B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7BFD39C8733C9EDA5DE6A4EC1A628CB4 /* BigInt.swift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BigInt.swift/BigInt.swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BigInt.swift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BigInt.swift/BigInt.swift.modulemap";
+				PRODUCT_NAME = BigInt;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		827269710C98D60C14D46BC6AF9BF728 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -672,9 +671,9 @@
 			};
 			name = Release;
 		};
-		878A7DC9931E828316B9AFD4C8875AED /* Debug */ = {
+		8582DD01E1D49D8F0B798D7C5F33EF3F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D55C99E7C3DAE9D728053740013D4028 /* BigInt.xcconfig */;
+			baseConfigurationReference = 7BFD39C8733C9EDA5DE6A4EC1A628CB4 /* BigInt.swift.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -685,51 +684,18 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/BigInt/BigInt-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/BigInt/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/BigInt.swift/BigInt.swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BigInt.swift/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/BigInt/BigInt.modulemap";
+				MODULEMAP_FILE = "Target Support Files/BigInt.swift/BigInt.swift.modulemap";
 				PRODUCT_NAME = BigInt;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		8E40FFEC2500C2A46C67BD826B417A37 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 690D25762E57E76195541A31CAB0B232 /* Pods-BigInt_Example.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-BigInt_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-BigInt_Example/Pods-BigInt_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_BigInt_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -769,6 +735,40 @@
 			};
 			name = Debug;
 		};
+		EF3F16D1AFA6BDEA44E2A5E888C948FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 900772AE551173F28CF9992E2B8D91C9 /* Pods-BigInt_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BigInt_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BigInt_Example/Pods-BigInt_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_BigInt_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -781,20 +781,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5F14FEF2DBF7335F3F5B73EF29C8F99E /* Build configuration list for PBXNativeTarget "BigInt" */ = {
+		45765B6580030ABBC5DEC6914D089865 /* Build configuration list for PBXNativeTarget "Pods-BigInt_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				878A7DC9931E828316B9AFD4C8875AED /* Debug */,
-				3563518C8D149639F2D99C0C9CF067D0 /* Release */,
+				EF3F16D1AFA6BDEA44E2A5E888C948FD /* Debug */,
+				6F4F1391273593E53FF647C8DFFC8C26 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		71D930D437F43D513B168EF52201BB90 /* Build configuration list for PBXNativeTarget "Pods-BigInt_Example" */ = {
+		5F5AD58D3E02DB5E92E1210568A7BE36 /* Build configuration list for PBXNativeTarget "BigInt.swift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				630A06ECC285ECFF4019832999A2BF6F /* Debug */,
-				8E40FFEC2500C2A46C67BD826B417A37 /* Release */,
+				7EF98CDE818BE120CD7F1BCE6E5833B8 /* Debug */,
+				8582DD01E1D49D8F0B798D7C5F33EF3F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

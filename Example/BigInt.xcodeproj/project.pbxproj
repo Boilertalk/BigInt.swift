@@ -316,7 +316,7 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-BigInt_Example/Pods-BigInt_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/BigInt/BigInt.framework",
+				"${BUILT_PRODUCTS_DIR}/BigInt.swift/BigInt.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (

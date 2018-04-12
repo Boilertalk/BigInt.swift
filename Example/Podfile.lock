@@ -1,16 +1,16 @@
 PODS:
-  - BigInt (0.1.0)
+  - BigInt.swift (0.1.0)
 
 DEPENDENCIES:
-  - BigInt (from `../`)
+  - BigInt.swift (from `../`)
 
 EXTERNAL SOURCES:
-  BigInt:
+  BigInt.swift:
     :path: ../
 
 SPEC CHECKSUMS:
-  BigInt: 0baaa2f505415771811ea81ab4076b1d65cad1ba
+  BigInt.swift: 0fd870beed7f38ccd52aba410d9fcebe093426f8
 
-PODFILE CHECKSUM: c73c325bbb68a5742ab73e0a123f5ea04eb1ed69
+PODFILE CHECKSUM: 0badd99a41a0e695366d04386231ad4f75f5ae7e
 
 COCOAPODS: 1.4.0

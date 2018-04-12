@@ -1,7 +1,7 @@
 use_frameworks!
 
 target 'BigInt_Example' do
-  pod 'BigInt', :path => '../'
+  pod 'BigInt.swift', :path => '../'
 
   target 'BigInt_Tests' do
     inherit! :search_paths

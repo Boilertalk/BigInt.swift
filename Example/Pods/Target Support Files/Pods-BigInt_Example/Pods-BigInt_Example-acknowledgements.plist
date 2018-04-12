@@ -39,7 +39,7 @@ THE SOFTWARE.
 			<key>License</key>
 			<string>MIT</string>
 			<key>Title</key>
-			<string>BigInt</string>
+			<string>BigInt.swift</string>
 			<key>Type</key>
 			<string>PSGroupSpecifier</string>
 		</dict>

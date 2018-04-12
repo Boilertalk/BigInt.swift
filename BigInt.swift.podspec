@@ -23,6 +23,8 @@ which are also available for normal Ints.
 
   s.source_files = 'BigInt/Classes/**/*'
 
+  s.module_name = 'BigInt'
+
   # s.resource_bundles = {
   #   'BigInt' => ['BigInt/Assets/*.png']
   # }
