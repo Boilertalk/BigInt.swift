@@ -21,6 +21,8 @@ which are also available for normal Ints.
   s.tvos.deployment_target = '9.0'
   s.watchos.deployment_target = '2.0'
 
+  s.source_files = 'BigInt/Classes/**/*'
+
   # s.resource_bundles = {
   #   'BigInt' => ['BigInt/Assets/*.png']
   # }
