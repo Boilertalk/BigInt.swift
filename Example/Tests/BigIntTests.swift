@@ -255,12 +255,6 @@ class BigIntTests: XCTestCase {
         let b = BigInt(-256)
         XCTAssertEqual(b.description, "-256")
         XCTAssertEqual(String(b, radix: 16, uppercase: true), "-100")
-        let pql = b.playgroundDescription
-        if let p = pql as? String {
-            XCTAssertEqual(p, "-256 (9 bits)")
-        } else {
-            XCTFail("Unexpected Playground Quick Look: \(pql)")
-        }
     }
 
     func testComparable() {

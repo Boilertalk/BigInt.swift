@@ -1306,13 +1306,6 @@ class BigUIntTests: XCTestCase {
         XCTAssertEqual(String(BigUInt("10000000000000000", radix: 16)!, radix: 31), "nd075ib45k86g")
         XCTAssertEqual(String(BigUInt("2908B5129F59DB6A41", radix: 16)!, radix: 31), "100000000000000")
         XCTAssertEqual(String(sample, radix: 31), "ptf96helfaqi7ogc3jbonmccrhmnc2b61s")
-
-        let quickLook = BigUInt(513).playgroundDescription
-        if let q = quickLook as? String {
-            XCTAssertEqual(q, "513 (10 bits)")
-        } else {
-            XCTFail("Unexpected playground QuickLook representation: \(quickLook)")
-        }
     }
 
     func testConversionFromString() {
