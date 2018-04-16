@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'BigInt.swift'
-  s.version          = '0.1.0'
+  s.version          = '1.0.0'
   s.summary          = 'BigInt library for Swift. Arbitarily sized integer operations.'
 
   s.description      = <<-DESC
