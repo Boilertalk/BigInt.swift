@@ -70,7 +70,7 @@ import BigInt
 
 ## Author
 
-Ybrin, koray@boilertalk.at
+The awesome guys at Boilertalk :alembic:
 
 ## License
 
