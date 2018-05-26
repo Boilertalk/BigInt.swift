@@ -70,7 +70,9 @@ import BigInt
 
 ## Author
 
-The awesome guys at Boilertalk :alembic:
+[Károly Lőrentey](https://github.com/lorentey) for most of the actual implementation (everything until #7f58885d3261d7246aa8820b61273d5b7efdca09)
+
+The awesome guys at Boilertalk :alembic: for all additions and compatibility modifications after #2d01b8dab9eb7cd5332b980067c5fa6a6d16427b
 
 ## License
 
