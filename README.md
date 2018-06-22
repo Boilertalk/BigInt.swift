@@ -22,6 +22,8 @@
 
 # :alembic: BigInt
 
+> :warning: :warning: :warning: This fork will not be maintained any more in favour of the original library which is now also officially supported on Linux and the newest Swift version. Please switch to [the original library](https://github.com/attaswift/BigInt) ASAP :warning: :warning: :warning:
+
 This library is a fork of [BigInt](https://github.com/attaswift/BigInt), a BigInt implementation for Swift.
 
 Based on the original library, this fork doesn't have any dependencies, supports Swift 4.1 on all Platforms
